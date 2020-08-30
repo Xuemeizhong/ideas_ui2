@@ -1,0 +1,12 @@
+login:
+  -
+    title: 登录_用户名正确、密码正确
+    name: ZXM-TEST
+    pwd: Jusda#123
+
+  -
+    title: 登录_用户名正确、密码错误
+    name: ZXM-TEST
+    pwd: Jusda##123
+    assert:
+      tip: 密码错误，请找回密码或联系管理员重置密码

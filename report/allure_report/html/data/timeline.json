@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-R78HV9H",
+    "children" : [ {
+      "name" : "15468-MainThread",
+      "children" : [ {
+        "name" : "test_login[data1]",
+        "uid" : "297f312a09a1e84c",
+        "parentUid" : "1c4de41eb72643a63a1a7b1a74679484",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590200385206,
+          "stop" : 1590200389747,
+          "duration" : 4541
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '登录_用户名正确、密码错误', 'name': 'ZXM-TEST', 'pwd': 'Jusda##123', 'assert': {'tip': '密码错误，请找回密码或联系管理员重置密码'}}" ]
+      }, {
+        "name" : "test_login[data0]",
+        "uid" : "6c337de1c885ead1",
+        "parentUid" : "1c4de41eb72643a63a1a7b1a74679484",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590200374528,
+          "stop" : 1590200378682,
+          "duration" : 4154
+        },
+        "flaky" : false,
+        "parameters" : [ "{'title': '登录_用户名正确、密码正确', 'name': 'ZXM-TEST', 'pwd': 'Jusda#123'}" ]
+      } ],
+      "uid" : "1c4de41eb72643a63a1a7b1a74679484"
+    } ],
+    "uid" : "b32ea66a9d23dbd0f4bf6ffb8d96f2aa"
+  } ]
+}

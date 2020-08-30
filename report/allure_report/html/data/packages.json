@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "case.test_case.test_01_login",
+    "children" : [ {
+      "name" : "test_login[data0]",
+      "uid" : "6c337de1c885ead1",
+      "parentUid" : "a0f80f1cb3c8e503a9cd7519ca6fdced",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590200374528,
+        "stop" : 1590200378682,
+        "duration" : 4154
+      },
+      "flaky" : false,
+      "parameters" : [ "{'title': '登录_用户名正确、密码正确', 'name': 'ZXM-TEST', 'pwd': 'Jusda#123'}" ]
+    }, {
+      "name" : "test_login[data1]",
+      "uid" : "297f312a09a1e84c",
+      "parentUid" : "a0f80f1cb3c8e503a9cd7519ca6fdced",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590200385206,
+        "stop" : 1590200389747,
+        "duration" : 4541
+      },
+      "flaky" : false,
+      "parameters" : [ "{'title': '登录_用户名正确、密码错误', 'name': 'ZXM-TEST', 'pwd': 'Jusda##123', 'assert': {'tip': '密码错误，请找回密码或联系管理员重置密码'}}" ]
+    } ],
+    "uid" : "case.test_case.test_01_login"
+  } ]
+}

@@ -1,0 +1,7 @@
+total:2
+passed:2
+failed:0
+error:0
+skipped:0
+成功率:100.00%
+total times:22.846009254455566 seconds
